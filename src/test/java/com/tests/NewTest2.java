@@ -25,7 +25,7 @@ public class NewTest2 {
 	@Test
 	public void launchfirefox()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\Users\training_c2a.05.07\Downloads\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\training_c2a.05.07\\Downloads\\chromedriver.exe");
 	    
 	   driver=new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
